@@ -31,7 +31,7 @@ $ sudo sh -c "curl -L https://github.com/hypriot/compose/releases/download/1.1.0
 ## Checkout this repository to your Raspberry Pi
 Clone this repository to your Raspberry. Execute
 ```
-git clone https://github.com/dhermanns/rpi-nightscout
+git clone https://github.com/tomasboudr/rpi-nightscout
 ```
 The above git-repository contains the Docker file to create a docker image and a
 docker-compose script to launch rpi-nightscout referencing the
