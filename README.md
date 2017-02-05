@@ -54,7 +54,7 @@ E.g. to modify the default alarm ranges change the values of BG_HIGH, BG_LOW, et
 nightscout:
   image: dhermanns/rpi-nightscout:0.9.2
   environment:
-    TZ: Europe/Berlin
+    TZ: US/Eastern
     MONGO_CONNECTION: mongodb://mongo:27017/nightscout
     API_SECRET: nightscout2000
     BG_HIGH: 220
