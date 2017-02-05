@@ -3,7 +3,11 @@ nightscout:
   environment:
     TZ: US/Eastern
     MONGO_CONNECTION: mongodb://mongo:27017/nightscout
+    ENABLE: bridge openaps rawbg pump iob careportal cob cwg cage basal
+    DEVICESTATUS_ADVANCED: true
     API_SECRET: nightscout2000
+    BRIDGE_USER_NAME: USERNAME
+    BRIDGE_PASSWORD: Passwrod
     BG_HIGH: 220
     BG_LOW: 60
     BG_TARGET_TOP: 180
